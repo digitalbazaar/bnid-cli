@@ -1,0 +1,15 @@
+/usr/bin/env node --input-type module - -- "$@" << EOF
+/*!
+ * Copyright (c) 2021 Digital Bazaar, Inc. All rights reserved.
+ */
+import {main} from './bnid.js';
+
+// adjust argv to look like normal invocation
+// set directly to allow yargs to display proper help messages
+
+process.argv = [process.argv[0], '$0', ...process.argv.slice(3)];
+
+// run the program
+await main();
+
+EOF

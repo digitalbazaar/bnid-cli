@@ -1,0 +1,47 @@
+{
+  "name": "bnid-cli",
+  "version": "0.0.1-0",
+  "description": "Base-N Id Generator Command Line Interface",
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com/"
+  },
+  "homepage": "https://github.com/digitalbazaar/bnid-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bnid-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bnid-cli/issues"
+  },
+  "keywords": [
+    "id",
+    "identifier",
+    "random"
+  ],
+  "type": "module",
+  "exports": "./bnid.js",
+  "files": [
+    "bnid",
+    "bnid.js"
+  ],
+  "bin": "./bnid",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "bnid": "^3.0.0",
+    "yargs": "^17.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-digitalbazaar": "^3.0.0",
+    "eslint-plugin-jsdoc": "^39.2.9",
+    "eslint-plugin-unicorn": "^42.0.0"
+  }
+}
