@@ -60,7 +60,7 @@ npx bnid-cli [OPTIONS]
 The options follow the API. See help for more information:
 
 ```
-npx bnid --help
+npx bnid-cli --help
 ```
 
 Examples:
