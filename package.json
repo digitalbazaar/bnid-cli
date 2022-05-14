@@ -1,6 +1,6 @@
 {
   "name": "bnid-cli",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "Base-N Id Generator Command Line Interface",
   "license": "BSD-3-Clause",
   "author": {
