@@ -1,6 +1,6 @@
 # bnid-cli ChangeLog
 
-## 2.0.0 - 2023-07-xx
+## 2.0.0 - 2023-07-17
 
 ### Added
 - Add a multihash encoding option with a default of true.
