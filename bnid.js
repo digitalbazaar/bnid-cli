@@ -46,6 +46,12 @@ export async function main() {
       type: 'boolean',
       default: true
     })
+    .option('multihash', {
+      alias: 'u',
+      describe: 'Use multihash format',
+      type: 'boolean',
+      default: true
+    })
     .alias('h', 'help')
     .argv;
   try {
@@ -53,6 +59,7 @@ export async function main() {
       bitLength: args.bitLength,
       encoding: args.encoding,
       multibase: args.multibase,
+      multihash: args.multihash,
       fixedLength: args.fixedLength,
       fixedBitLength: args.fixedBitLength
     }));
